@@ -8,8 +8,8 @@ day, month, year = map(int, birthdate.split('/'))
 current_year = datetime.now().year
 age = current_year - year
 
-# Determine the number of candles (last digit of age)
-candles = age % 10  # Example: If age is 27 → candles = 7
+
+candles = age % 10  
 
 # Check if it's a leap year
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
