@@ -4,6 +4,7 @@ sandwich_orders = [
 ]
 
 print("Sorry, the deli has run out of Pastrami sandwiches.")
+
 while "Pastrami sandwich" in sandwich_orders:
     sandwich_orders.remove("Pastrami sandwich")
 
