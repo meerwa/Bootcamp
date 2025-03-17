@@ -22,7 +22,7 @@ class PetDog(Dog):
                 f"{self.name} shakes your hand.",
                 f"{self.name} plays dead."
             ]
-            print(random.choice(tricks))  # Pick a random trick
+            print(random.choice(tricks))  
         else:
             print(f"{self.name} is not trained yet and refuses to do a trick.")
 
