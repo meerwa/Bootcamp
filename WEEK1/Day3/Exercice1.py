@@ -13,9 +13,17 @@ def find_oldest_cat(cats):
             oldest_cat = cat
 
     return oldest_cat
-          
 
+# Instantiate Cat objects
+C1 = Cat("Sam", 2)
+C2 = Cat("Siamo", 3)
+C3 = Cat("JIN", 5)
 
-C1=Cat("Sam",2)
-C2=Cat("Siamo",3)
-C3=Cat("JIN",5)
+# Create a list of the cat objects
+cats = [C1, C2, C3]
+
+# Find the oldest cat
+oldest_cat = find_oldest_cat(cats)
+
+# Print the result
+print(f"The oldest cat is {oldest_cat.name}, and is {oldest_cat.age} years old.")
